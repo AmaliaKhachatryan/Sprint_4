@@ -8,13 +8,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageUserData {
-    public static final By NAME_LINE = By.xpath(".//input[@placeholder='* Имя']");
-    public static final By SURNAME_LINE = By.xpath(".//input[@placeholder='* Фамилия']");
-    public static final By ADDRESS_LINE = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
-    public static final By SUBWAY_STATION_LINE = By.xpath(".//input[@placeholder='* Станция метро']");
-    public static final By SUBWAY_STATION_SELECTOR = By.xpath(".//li[@data-index='0']");
-    public static final By TELEPHONE_LINE = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
-    public static final By NEXT_BUTTON = By.xpath(".//button[(text()='Далее')]");
+    private static final By NAME_LINE = By.xpath(".//input[@placeholder='* Имя']");
+    private static final By SURNAME_LINE = By.xpath(".//input[@placeholder='* Фамилия']");
+    private static final By ADDRESS_LINE = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
+    private static final By SUBWAY_STATION_LINE = By.xpath(".//input[@placeholder='* Станция метро']");
+    private static final By SUBWAY_STATION_SELECTOR = By.xpath(".//li[@data-index='0']");
+    private static final By TELEPHONE_LINE = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
+    private static final By NEXT_BUTTON = By.xpath(".//button[(text()='Далее')]");
     private static final By DELIVERY_DATE_LINE = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
     private static final By STATION_TVERSKAYA=By.xpath(".//div[text()='Тверская']");
     private WebDriver driver;
